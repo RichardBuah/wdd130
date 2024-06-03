@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Richard Buah | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name: 
+                    <input type="text" id="fullname" name="fullname">
+                </label>
+                <label for="useremail">Email Address: 
+                    <input type="text" name="useremail" id="useremail">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="question1">What is your favorite browser?
+                    <select name="options" id="favoriteBrowserOptions">
+                        <option value="chrome">chrome</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Mozila">Mozila</option>
+                    </select>
+                </label>
+                <label for="question2">Do you have a household pet?
+                    <input type="checkbox" name="pet" id="pet">
+                </label>
+                <label for="placesLived">List the places you have lived:
+                    <input type="text" name="placesLived" id="placesLived" placeholder="Accra Central, Tamale Campus, Korlegono Station">
+                </label>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2024| HTML Form - User Poll Activity | Richard Buah </p>
+    </footer>
+</body>
+</html>
