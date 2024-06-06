@@ -125,7 +125,7 @@ article img {
     grid-row: 1/2;
 }
 
-.adventure div {
+.adventure div, .whtwater {
     display: flex;
     justify-content: space-around;
     margin: 20px auto;
@@ -216,6 +216,160 @@ textarea {
     font-size: 2rem;
     font-weight: 900;
     margin: 20px;
+}
+
+.formcont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.indexform {
+    max-width: 50%;
+    height: 50vh;
+}
+
+.hmsg img {
+    width: 100%;
+    height: 70vh;
+}
+
+.hmsg p {
+    display: block;
+    padding-top: 40px;
+    padding-left: 0;
+}
+
+.whtwater img {
+    width: 30vw;
+    height: 40vh;
+}
+
+.indexform fieldset, .infocont {
+    margin: 20px;
+    padding: 20px;
+}
+
+.indexform button {
+    margin-top: 10px;
+}
+
+.infocont {
+    width: 45%;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: rgb(118, 104, 197);
+    color: white;
+}
+
+.contactref {
+    width: 700px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+#ctat {
+    background-color:rgb(25, 117, 53, 0.98);
+    color: rgb(255, 255, 255, 0.98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: larger;
+    max-width: 800px;
+    height: 100%;
+}
+
+#ctat:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: rgba(255, 255, 255);
+    background-color:rgba(25, 117, 53);
+}
+
+#cta {
+    background-color:rgb(240, 238, 238);
+    border-radius: 15px;
+    color: rgb(102, 202, 56);
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.contactref a {
+    font-size: 1.5rem;
+}
+
+#cta:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(102, 202, 56);   
+}
+
+#tripintro {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.tripdscr {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+.tripdscr img {
+    max-width: 270px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.dvdln {
+    border: 2px solid gray;
+    margin-bottom: 5em;
+}
+
+.tripdscr figcaption {
+    margin-left: 20px;
+}
+
+#tripshead {
+    padding-left: 0;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.nws {
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5em 0 5em;
+    
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+tr:hover {
+    background-color: #ddd;
 }
 
 footer {
